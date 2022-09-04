@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(36, 35, 35);
+  color: rgb(14, 214, 211);
+}
+.container {
+  width: 400px;
+  height: 400px;
+  background: rgb(22, 22, 22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: rgb(24, 41, 194) 10px solid;
+}
+.animation {
+  border: rgb(204, 32, 26) 10px solid;
+}
+.container h1 {
+  font-weight: 900;
+  font-size: 60px;
+}
